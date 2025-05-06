@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReentrancyLockVerifier", "ReentrancyLockVerifier\ReentrancyLockVerifier.csproj", "{8DE120C8-D24F-4737-BF79-C6202C46C971}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReentrancyLockVerifier.Tests", "ReentrancyLockVerifier.Tests\ReentrancyLockVerifier.Tests.csproj", "{B923A842-5D0D-455C-9ED8-E189552048CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{8DE120C8-D24F-4737-BF79-C6202C46C971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE120C8-D24F-4737-BF79-C6202C46C971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE120C8-D24F-4737-BF79-C6202C46C971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B923A842-5D0D-455C-9ED8-E189552048CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B923A842-5D0D-455C-9ED8-E189552048CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B923A842-5D0D-455C-9ED8-E189552048CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B923A842-5D0D-455C-9ED8-E189552048CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

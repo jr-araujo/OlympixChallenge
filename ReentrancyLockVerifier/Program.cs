@@ -14,9 +14,9 @@ if (fileArgIndex == 0 || fileArgIndex >= args.Length)
 }
 
 var filePath = args[fileArgIndex];
-var bytecode = File.ReadAllText(filePath).Trim();
-var instructions = EvmDisassembler.Disassemble(bytecode);
-var issues = ReentrancyAnalyzer.Analyze(instructions);
+var bytecode = File.ReadAllBytes(filePath);
+// var instructions = EvmDisassembler.Disassemble(bytecode);
+var issues = new ContractAnalyzer().Analyze(bytecode);
 
 Console.WriteLine($"\n📄 Analyzing {Path.GetFileName(filePath)}...");
 if (issues.Count == 0)
@@ -28,7 +28,7 @@ else
     Console.WriteLine("❌ Reentrancy issues found:");
     foreach (var issue in issues)
     {
-        Console.WriteLine(" - " + issue.Message);
+        Console.WriteLine(" - " + issue.Description);
     }
 }
 

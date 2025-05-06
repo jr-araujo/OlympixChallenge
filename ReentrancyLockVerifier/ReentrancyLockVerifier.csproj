@@ -12,14 +12,22 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Contracts\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Update="Contracts\VulnerableBank.bin">
+      <None Update="Contracts\SafeBank.bin">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="Contracts\SafeBank.bin">
+      <None Update="Contracts\NoBalanceCheck.bin">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Contracts\NoBalanceCheck.vy">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Contracts\SafeBank.vy">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Contracts\SharedState.bin">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Contracts\SharedState.vy">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>
