@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 namespace ReentrancyLockVerifier.Core;
 
 public enum VulnerabilityType
