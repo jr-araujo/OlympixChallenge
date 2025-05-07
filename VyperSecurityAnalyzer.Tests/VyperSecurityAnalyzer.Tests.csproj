@@ -5,6 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>false</IsPackable>
+        <RootNamespace>ReentrancyLockVerifier.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,7 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ReentrancyLockVerifier\ReentrancyLockVerifier.csproj" />
+      <ProjectReference Include="..\VyperSecurityAnalyzer\VyperSecurityAnalyzer.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReentrancyLockVerifier", "ReentrancyLockVerifier\ReentrancyLockVerifier.csproj", "{8DE120C8-D24F-4737-BF79-C6202C46C971}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VyperSecurityAnalyzer", "VyperSecurityAnalyzer\VyperSecurityAnalyzer.csproj", "{8DE120C8-D24F-4737-BF79-C6202C46C971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReentrancyLockVerifier.Tests", "ReentrancyLockVerifier.Tests\ReentrancyLockVerifier.Tests.csproj", "{B923A842-5D0D-455C-9ED8-E189552048CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VyperSecurityAnalyzer.Tests", "VyperSecurityAnalyzer.Tests\VyperSecurityAnalyzer.Tests.csproj", "{B923A842-5D0D-455C-9ED8-E189552048CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,6 +5,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>VyperSecurityAnalyzer</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -12,22 +13,22 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="Contracts\SafeBank.bin">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="Contracts\NoBalanceCheck.bin">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
       <None Update="Contracts\NoBalanceCheck.vy">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="Contracts\SafeBank.vy">
+      <None Update="Contracts\Reentrancy.vy">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="Contracts\SharedState.bin">
+      <None Update="Contracts\SafeContract.vy">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="Contracts\SharedState.vy">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Contracts\TxOriginAuthentication.vy">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Contracts\UncheckedLowLevelCall.vy">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>
